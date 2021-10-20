@@ -77,7 +77,7 @@ const Tasks: React.FC = () => {
                         <Form.Label>Descrição</Form.Label>
                         <Form.Control as='textarea' rows={3} name='description' value={model.description} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)} />
                     </Form.Group>
-
+                    <br />
                     <Button variant='dark' type='submit'>
                         Salvar
                     </Button>
